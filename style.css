@@ -1,0 +1,370 @@
+
+/* Cuerpo del html */
+body{
+
+height: 100%;
+font-family: 'Roboto', sans-serif;
+
+}
+
+/*Inicio de la barra de navegación*/
+.bg-dark {
+    background-color: #3374FF!important;
+}
+
+.NT{
+    color: black;
+    font-family: 'Roboto', sans-serif;
+
+}
+/*Fin de la barra de navegación*/
+
+/*Inicio de la primera fila*/
+#primero.row {
+    background-image: url(foto7.jpg);
+    background-size: 100%;
+     height: 500px;
+   }
+#tercero1 {
+    background-image: url(foto5.jpg);
+    background-size: 100%;
+    height: 400px;
+}
+
+#tercero2 {
+    background-image: url(foto8.jpg);
+    background-size: 100%;
+    height: 400px;
+}
+/*Fin de la primera fila*/
+
+/*Inicio de la parte de la segunda fila------------------------------------------------------------------- */
+
+#segundo.row {
+    background-size: 100%;
+     height: 500px;
+}
+
+#boton2{
+    color: black;
+    background-color: transparent;
+    border:1px solid black;
+    width: 150px;
+    height: 40px;
+    font-size:10px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+/*Fin de la parte de la segunda fila------------------------------------------------------------------- */
+
+
+
+
+
+/*Inicio de la parte de los Slites------------------------------------------------------------------- */
+#slides.row{
+    height: 500px;
+}
+.bd-example{
+    position: absolute;
+    width: 50%;
+    
+    left: 25%;
+}
+#tituloSlides{
+    text-align: center;
+}
+/*Fin de la parte de los Slites------------------------------------------------------------------- */
+
+.pc1 {
+margin-left: 50%;
+}
+
+
+#cuadro{
+    position: absolute;
+    left: 20%;
+    top:30%;
+    color: black;
+}
+
+#cuadrodos{
+    position: absolute;
+    left: 20%;
+    top:15%;
+    color: black;
+}
+
+h1{
+    font-family: 'Times New Roman', Times, serif;
+}
+h2{
+    font-family: 'Times New Roman', Times, serif;
+}
+h3{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 26px;
+}
+h5{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 26px;
+}
+h6{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.btn-light{
+    color: black;
+    background-color: transparent;
+    border:1px solid black;
+    width: 115px;
+}
+
+
+
+/*Inicio de la parte de experiencia------------------------------------------------------------------- */
+
+#experiencia {
+    text-align: center;
+}
+
+#contenedorSegundaParte{
+    width: 90%;
+}
+/*Fin de la parte de experiencia------------------------------------------------------------------- */
+
+
+/*Inicio de la parte de preferencias------------------------------------------------------------------- */
+
+#preferencias {
+    text-align: center;
+}
+
+.card {
+    padding-top: 20px;
+    margin: 10px 0 20px 0;
+    background-color: rgba(214, 224, 226, 0.2);
+    border-top-width: 0;
+    border-bottom-width: 2px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.card .card-heading {
+    padding: 0 20px;
+    margin: 0;
+}
+
+.card .card-heading.image img {
+    display: inline-block;
+    width: 46px;
+    height: 46px;
+    margin-right: 15px;
+    vertical-align: top;
+    border: 0;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+}
+
+
+
+
+.card.hovercard {
+    position: relative;
+    padding-top: 0;
+    overflow: hidden;
+    text-align: center;
+    background-color: rgba(214, 224, 226, 0.2);
+}
+
+.card.hovercard .cardheader {
+    background: url("http://lorempixel.com/850/280/nature/4/");
+    background-size: cover;
+    height: 135px;
+}
+
+.card.hovercard .avatar {
+    position: relative;
+    top: -50px;
+    margin-bottom: -50px;
+}
+
+.card.hovercard .avatar img {
+    width: 100px;
+    height: 100px;
+    max-width: 100px;
+    max-height: 100px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    border: 5px solid rgba(255,255,255,0.5);
+}
+/*Fin de la parte de preferencias------------------------------------------------------------------- */
+
+/*Inicio de la parte del hr------------------------------------------------------------------- */
+hr{
+    border: 1px solid black;
+    width: 100%px;
+}
+hr.type_10 {
+    border: 0;
+    height: 55px;
+    background: transparent url(hr1.png) no-repeat center center;
+      }
+hr.type_11 {
+    border: 0;
+    height: 55px;
+    background: transparent url(hr2.png) no-repeat center center;
+}
+
+hr.type_12 {
+    border: 0;
+    height: 55px;
+    background: transparent url(hr3.png) no-repeat center center;
+}
+
+hr.type_13 {
+    border: 0;
+    height: 55px;
+    background: transparent url(hr4.png) no-repeat center center;
+}
+/*Fin de la parte del hr------------------------------------------------------------------- */
+
+
+/*Inicio de la parte del blog del lobo ártico------------------------------------------------------------------- */
+.header {
+    
+    margin-left: 40%;
+    margin-top: 5%;
+    color: #fff;
+    font-size: 50px;
+    font-weight: 700;
+    }
+
+#bloglobo.row{
+    background-image: url(lobo.jpg);
+    background-size: 100%;
+    height: 500px;
+}
+#concepto {
+    position: absolute;
+    background: transparent;
+    color: white;
+    left: 60%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+#blog{
+    text-align: center;
+}
+
+#masInfoLobos{
+    margin-left: 60%;
+    margin-top: 18%;
+    background: black;
+    border: 1px solid black;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+#slides.row{
+    background-image: url(cloudBlack.jpg);
+    background-size: 100%;
+     height: 800px;
+}
+
+#slideuno{
+    height: 650px;
+}
+#slidedos{
+    height: 650px;
+}
+#slidetres{
+    height: 650px;
+}
+
+#tituloSlides {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+
+
+}
+/*Fin de la parte del blog del lobo ártico------------------------------------------------------------------- */
+
+
+
+/*Inicio de la parte de gustos------------------------------------------------------------------- */
+
+#gustos {
+    text-align: center;
+}
+
+#media {
+    width: 100%;    
+}
+
+#rock {
+    width: 400px;
+}
+/*Fin de la parte de gustos------------------------------------------------------------------- */
+
+#pelicula{
+    width: 400px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#boton {
+    margin-left: 55%;
+    color: white;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

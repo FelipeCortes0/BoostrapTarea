@@ -1,0 +1,35 @@
+Informe:
+
+Apunte: En la barra de navegación hay 4 items que son: Experiencias, Preferencias, Gustos y Blog. Si le da click a cada uno de estos items, te llevará a la zona específica.
+
+Dificultades encontradas:
+
+Bueno para la primera parte, la primera fila con el fondo de un lobo, me costó mucho poder colocar la imagen de fondo sin que se deformara por la resolución de la imagen, la verdad me estaba costando demasiado poder poner bien el fondo dentro de una fila.
+La solución que hice fue la siguiente:
+
+background-image: url(foto7.jpg);
+background-size: 100%;
+height: 500px;
+
+Colocar el fondo, luego ponerle todo el tamaño de la fila y luego pues acortar el tamaño vertical, no con todas las imágenes funcionaba, porque al cortar ( al hacer el height ) muchas veces las imágenes se cortaban y no quedaban como a mí me gustaría, entonces tuve que buscar la imagen correcta para que el fondo quedara bien.
+
+Al final de la primera página ( donde están las fotos del leopardo y el lobo juntas en 2 columnas) también me costó ajustar bien la imagenes para que no se expandiera más allá de la columna y para que quedaran bien y no corridas hacia un lado.
+
+En la parte de Experiencia, casi no tuve problemas. Tengo que reconocer que tuve que buscar como poner el tag del hr con una imagen de fondo, eso era algo nuevo. En esta parte de la Experiencia utilicé un nuevo componente llamado Progress ( componente utilizado en esta parte ), la verdad ya lo había utilizado en la primer tarea, había visto que se podía utilizar en Boostrap así que lo usé y para esta tarea, reuse ese componente o esa parte de código ( pero es algo que no habíamos visto en clase).
+
+En la parte de Preferencias, encontré varios errores con el nuevo componente Card ( componente utilizado en esta parte ) porque quería utilizar el que le dabas click y se desplegaba pero no una sola casilla, sino más bien tres casillas juntas y que se fueran desplegando cada una al momento de darle click. Así que opté por realizar una card que tiene una imagen de fondo y de perfil y también me demoré utilizando el CSS para poder cuadrar lo que era el fondo con la imagen de perfil porque al utilizar el tutorial de la página "https://scripteden.com" no era como que quedaba a la perfección, entonces hubo un poco de demora por ese punto.
+
+Para la parte de Gustos, también encontré problemas a la hora de cuadrar más que todo la imagen ( que al final era ajustar el tamaño de la misma ) y pues me tocó colocar cada Media ( el componente nuevo utilizado en esta parte ) en una sola fila, porque sino se pegan ambos uno al lado del otro.
+
+En la parte del Blog, quería utilizar un video de fondo que ocupara toda la Row pero ajustar el video a una fila me costó bastante, porque se ponía de fondo de toda la página y eso no era lo que buscaba y la otra parte que me demore resto y que probé con varios componentes de Boostrap y ninguno me servía, era porque no tenía las siguientes líneas ( una de ellas sirve para JavaScript ) 
+
+<!-- Optional JavaScript -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+Esas líneas de Boostrap no las tenía cerca al tag que cierra el body, así que no me funcionaban los componentes y había intentado mucho hacer el Carousel ( componente que se utilizó en esta parte ) pero no me servía y no entendía la razón hasta que recordé esa parte y al final funcionó, pero me demoré mucho en esa parte.
+
+Conclusión
+
+Como conclusión lo primero que todo para utilizar el Boostrap, debemos colocar primero que todo antes de cerrar el tag del body las tres líneas que mencioné anteriormente, es sumamente importante para poder utilizar los componentes de Boostrap. Por otro lado, utilizar Boostrap te ahorra mucho tiempo a la hora de realizar cualquier página web gracias a sus componentes, y que al combinar Boostrap con otras tecnologías se podrían crear sitios web muy buenos además de hacerlos responsive.
